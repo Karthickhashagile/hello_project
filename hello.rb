@@ -1,14 +1,5 @@
 # hello.rb
 
-def greet(name)
-  "Hello, #{name}!"
+def m
+  puts "hello world"
 end
-
-def farewell(name)
-  "Goodbye, #{name}!"
-end
-
-puts "Enter your name:"
-name = gets.chomp
-puts greet(name)
-puts farewell(name)
